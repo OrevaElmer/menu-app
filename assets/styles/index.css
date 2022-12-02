@@ -140,6 +140,9 @@ section .content .menu-items .item{
     }
 }
 @media (max-width: 640px) {
+    section{
+        padding: 50px;
+    }
     section .content .menu-items .item {
         width: 100%;
         padding: 0;
@@ -160,7 +163,7 @@ section .content .menu-items .item{
         flex-direction: column;
     }
 }
-@media (max-width: 364px) {
+@media (max-width: 264px) {
     section .content .menu-title::before {
         top: 100px;
     }
